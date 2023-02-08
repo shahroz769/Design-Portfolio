@@ -1,0 +1,95 @@
+:root{
+    --clr-purple--: #755CDE;
+    --clr-yellow--: #F6A560;
+    --clr-pink--: #F39E9E;
+    --clr-orange--: #EB7565;
+    --clr-green--: #61C4B7;
+    --clr-brown--: #552049;
+    --clr-grey--: #7A746E;
+    --clr-black--: #030303;
+    --clr-cream--: #FFF7F0;
+    --clr-white--: #FFFFFF;
+    --font-jakarta--: 'Plus Jakarta Sans', sans-serif;
+    --head-lg-size--: 3.5rem;
+    --head-md-size--: 2.5rem;
+    --head-sm-size--: 2rem;
+    --para-size--: 1.125rem;
+    --head-lg-height--: 4.375rem;
+    --head-md-height--: 3.1875rem;
+    --head-sm-height--: 2.5rem;
+    --para-height--: 1.125rem;
+    --head-weight--: 700;
+    --para-weight--: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-jakarta--);
+}
+body{
+    background-color: var(--clr-cream--);
+}
+h1{
+    font-size: var(--head-lg-size--);
+    font-weight: var(--head-weight--);
+    color: var(--clr-black--);
+    line-height: var(--head-lg-height--);
+}
+h2{
+    font-size: var(--head-md-size--);
+    font-weight: var(--head-weight--);
+    color: var(--clr-black--);
+    line-height: var(--head-md-height--);
+}
+h3{
+    font-size: var(--head-sm-size--);
+    font-weight: var(--head-weight--);
+    color: var(--clr-black--);
+    line-height: var(--head-sm-height--);
+}
+p{
+    font-size: var(--para-size--);
+    font-weight: var(--para-weight--);
+    color: var(--clr-grey--);
+    line-height: var(--para-height--);
+}
+a{
+    font-size: var(--para-size--);
+    font-weight: var(--para-weight--);
+    color: var(--clr-grey--);
+    line-height: var(--para-height--);
+    text-decoration: none;
+}
+.logo img{
+    width: 4rem;
+}
+.patterns .graphic_design{
+    width: 8rem;
+}
+.patterns .ui_ux{
+    width: 4rem;
+}
+.patterns .apps{
+    width: 4rem;
+}
+.patterns .photography{
+    width: 10rem;
+}
+.patterns .illustrations{
+    width: 8rem;
+}
+.patterns .motion_graphics{
+    width: 8rem;
+}
+.patterns h3{
+    color: var(--clr-white--);
+}
+.profile img{
+    width: 27.8125rem;
+}
+.work_img img{
+    width: 33.75rem;
+}
+.work_arrow img{
+    width: 0.925625rem;
+}
