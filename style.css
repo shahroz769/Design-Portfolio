@@ -7,7 +7,6 @@
     --clr-brown--: #552049;
     --clr-grey--: #7A746E;
     --clr-black--: #030303;
-    --clr-cream--: #FFF7F0;
     --clr-white--: #FFFFFF;
     --font-jakarta--: 'Plus Jakarta Sans', sans-serif;
     --head-lg-size--: 3.5rem;
@@ -68,7 +67,7 @@ nav{
     margin-bottom: 2.8rem;
 }
 nav a{
-    color: var(--clr-cream--);
+    color: var(--clr-white--);
     background-color: var(--clr-black--);
     padding: 1rem 3rem;
     border-radius: 5rem;
@@ -228,13 +227,13 @@ nav a{
     padding: 5rem 2.5rem;
 }
 .last_head h2, .last_head p, .last_head a{
-    color: var(--clr-cream--);
+    color: var(--clr-white--);
 }
 .last_head h2{
     padding-bottom: 1.5rem;
 }
 .last_head_left a{
-    color: var(--clr-cream--);
+    color: var(--clr-white--);
     background-color: var(--clr-orange--);
     padding: 1rem 3rem;
     border-radius: 5rem;
@@ -247,7 +246,7 @@ nav a{
     margin-bottom: 0.5rem;
 }
 .footer a{
-    color: var(--clr-cream--);
+    color: var(--clr-white--);
     background-color: var(--clr-black--);
     padding: 1rem 3rem;
     border-radius: 5rem;
