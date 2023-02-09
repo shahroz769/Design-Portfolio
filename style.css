@@ -139,6 +139,7 @@ nav a{
 }
 .profile{
     margin-top: 8.5rem;
+    margin-bottom: 4.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,9 +163,79 @@ nav a{
     border-radius: 5rem;
     padding: 1rem 3rem;
 }
-.work_img img{
+.work_img1 img{
     width: 33.75rem;
+    border-radius: 0.8rem;
+}
+.work_img2 img{
+    width: 33.75rem;
+    border-radius: 0.8rem;
+}
+.work_img3 img{
+    width: 33.75rem;
+    border-radius: 0.8rem;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.25rem;
+}
+.work_img{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
 }
 .work_arrow img{
     width: 0.925625rem;
+}
+.work_arrow{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2.25rem 0;
+}
+.work_arrow1, .work_arrow2{
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--clr-black--);
+    border-radius: 2rem;
+}
+.work_arrow1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work_arrow2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last_head_section{
+    display: flex;
+    justify-content: center;
+}
+.last_head{
+    display: flex;
+    width: 69.375rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-black--);
+    border-radius: 0.8rem;
+    padding: 5rem 2.5rem;
+}
+.last_head h2, .last_head p, .last_head a{
+    color: var(--clr-cream--);
+}
+.last_head h2{
+    padding-bottom: 1.5rem;
+}
+.last_head_left{
+    width: 33.75rem;
+}
+.last_head_left a{
+    color: var(--clr-cream--);
+    background-color: var(--clr-orange--);
+    padding: 1rem 3rem;
+    border-radius: 5rem;
 }
