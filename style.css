@@ -18,8 +18,9 @@
     --head-sm-height--: 2.5rem;
     --head-weight--: 700;
     --para-size--: 1.125rem;
-    --para-height--: 1.125rem;
+    --para-height--: 1.5;
     --para-weight--: 400;
+    --btn-size--: 0.8rem;
 }
 *{
     margin: 0;
@@ -52,7 +53,7 @@ p{
     line-height: var(--para-height--);
 }
 a{
-    font-size: var(--para-size--);
+    font-size: var(--btn-size--);
     font-weight: var(--para-weight--);
     color: var(--clr-grey--);
     line-height: var(--para-height--);
@@ -61,7 +62,7 @@ a{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 2.125rem 10rem;
+    padding: 2.125rem 10.3125rem;
     align-items: center;
     margin-bottom: 2.8rem;
 }
@@ -85,7 +86,7 @@ nav a{
 .first_head p{
     text-align: center;
     padding: 1.5rem 2rem;
-    line-height: 1.5;
+    line-height: var(--para-height--);
 }
 .patterns{
     width: 69.375rem;
@@ -155,7 +156,7 @@ nav a{
     gap: 2.125rem;
 }
 .profile_body p{
-    line-height: 1.5;
+    line-height: var(--para-height--);
 }
 .profile_body a{
     color: var(--clr-white--);
@@ -218,8 +219,9 @@ nav a{
 .last_head{
     display: flex;
     width: 69.375rem;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    gap: 26rem;
     background-color: var(--clr-black--);
     border-radius: 0.8rem;
     padding: 5rem 2.5rem;
@@ -230,12 +232,26 @@ nav a{
 .last_head h2{
     padding-bottom: 1.5rem;
 }
-.last_head_left{
-    width: 33.75rem;
-}
 .last_head_left a{
+    white-space: nowrap;
     color: var(--clr-cream--);
     background-color: var(--clr-orange--);
     padding: 1rem 3rem;
     border-radius: 5rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5rem 10.3125rem;
+    margin-bottom: 0.5rem;
+}
+.footer a{
+    color: var(--clr-cream--);
+    background-color: var(--clr-black--);
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+}
+.footer_logo img{
+    width: 4rem;
 }
