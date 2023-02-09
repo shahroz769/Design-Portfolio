@@ -97,7 +97,7 @@ nav a{
     margin: auto;
 }
 .patterns>div{
-    border-radius: .4rem;
+    border-radius: 0.8rem;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
