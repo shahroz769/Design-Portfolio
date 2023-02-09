@@ -58,6 +58,7 @@ a{
     color: var(--clr-grey--);
     line-height: var(--para-height--);
     text-decoration: none;
+    white-space: nowrap;
 }
 nav{
     display: flex;
@@ -233,7 +234,6 @@ nav a{
     padding-bottom: 1.5rem;
 }
 .last_head_left a{
-    white-space: nowrap;
     color: var(--clr-cream--);
     background-color: var(--clr-orange--);
     padding: 1rem 3rem;
